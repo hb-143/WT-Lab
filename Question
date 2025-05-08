@@ -1,0 +1,32 @@
+1. Develop a website to fetch movie details using API integration. The front end must get the movie and year details from user and perform input validation using Java Script
+2. Develop a website to integrate API for fetching random jokes and insert them into MongoDB collection using Webserver.
+3. Develop a student registration form with good input validation using Java script and use HTTP POST method to send those details to the webserver and print the details in console.
+4. Design a front-end page for our college using React with minimum four routing components to display different departments. Also use hook to count the number of visitors for the web page.
+5. Design a web application to get the employee details and web server to perform CRUD operations in the MongoDB.
+6. Design a web application to store and retrieve student details from the client web page to the MongoDB using NodeJS.
+7. Develop a website to integrate weather API to display the current weather of the location. The client page has to perform input validation for the location using Java Script.
+8. Develop a website to integrate Animal facts API to display facts about any animal provided by user.The client page has to perform input validation for the animal’s name and also show error if no such animal name exists using Java Script.
+9. Develop a React front-end page that fetches details of books and animals by integrating respective APIs in different components using routing.
+10. Develop a web application to perform CRUD operations on MongoDB using NodeJS with details shown or got from the front-end client using HTTP GET and POST.
+11. Design an online shopping for toys using React components and routing, perform online purchase by adding order details to the MongoDB.
+12. Develop a web application that gets student roll number and date of birth to fetch exam result from backend using HTTP GET.
+13. Develop a web application that gets user account number from the front-end and uses HTTP POST to retrieve the account details from MongoDB.
+14. Develop a web site for college cultural festival using minimum five react components and perform any conditional rendering on the website based on user choice.
+15. Design a web application for online books purchase. The web page must have details of books fetched from API and options to add books to cart.
+16. Design a web application to get online survey for the recent movie “Retro” with various input fields (minimum of 8) and perform validation on input using Java Script and send them to server using HTTP POST
+17. Develop a web page for online tutorial website using Express routing to handle multiple routes from the client. The server must handle both GET and POST requests &amp; perform routing accordingly.
+18. Develop a web page for online tutorial website using Express routing to handle multiple routes from the client. The server must handle both GET and POST requests &amp; perform routing accordingly.
+19. Develop a web page for session feedback on the FDP “AI in Blockchain”. Perform input validation using Java Script and use HTTP Request and Response to get some response based on input using NodeJS.
+20. Develop a web page to apply for Passport by getting necessary details. Perform input validation using Java Script and use HTTP POST to send the data to web server and print it on console.
+21. Design a web page to get details for applying Aadhar card with details and use HTTP POST to send the data to web server and store it in MongoDB.
+22. Design a web page using React components and perform routing to display various movie contents for an online movie streaming platform.
+23. Design a web page that collects starting and ending meter readings in the front-end and perform input validation to check the ending reading is always greater than starting reading. Use HTTP GET request and response to calculate the bill amount at the server using NodeJS.
+24. Design a web page using HTTP Request and Response to send and retrieve movie tickets details for online ticket booking and perform CRUD operations in the MongoDB using NodeJS.
+25. Develop a website to display the recipe for a food item given by the user. Integrate appropriate API to fetch recipes details and use HTTP POST method to fetch the json data from API. Perform input validation for the recipe name using JavaScript.
+26. Develop an online News website that showcases various categories of news articles using React routing components and fetch news data from any API.
+27. Develop a website for patient details management using React as front-end to get &amp; display patient details. Use NodeJS to perform Read and Create operation on MongoDB.
+28. Design a web page for displaying various painting collections and their price details using React components and routing. When user wishes to buy a painting gather user details to send it to server using HTTP request and display the details in console.
+29. Develop a web site using HTML for event management and perform input validation using Java Script. Then store those events registration details in MongoDB using NodeJS.
+30. Develop an online food ordering website using react components and routing. Handle the ordering at the web server using various Express routes for operations like viewing foods, order status, delivery status, payment status.
+31. Design a web page for student’s internal mark management using HTML and perform input validation using JavaScript to check marks are less than 100. Perform CRUD operations on the MongoDB using NodeJS based on student roll number.
+32. Develop an online technical discussion forum where user can post questions, answer other’s questions, search for answers, rate the answers. Perform CRUD operations on the MongoDB that contains all post.
