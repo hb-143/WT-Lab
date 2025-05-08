@@ -30,3 +30,9 @@
 30. Develop an online food ordering website using react components and routing. Handle the ordering at the web server using various Express routes for operations like viewing foods, order status, delivery status, payment status.
 31. Design a web page for student’s internal mark management using HTML and perform input validation using JavaScript to check marks are less than 100. Perform CRUD operations on the MongoDB using NodeJS based on student roll number.
 32. Develop an online technical discussion forum where user can post questions, answer other’s questions, search for answers, rate the answers. Perform CRUD operations on the MongoDB that contains all post.
+
+npm create vite@latest my-react-app -- --template react
+cd my-react-app
+npm install
+npm run dev
+
