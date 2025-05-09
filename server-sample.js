@@ -14,7 +14,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/studentDB', {
 }).then(() => console.log("MongoDB connected"))
   .catch(err => console.log("MongoDB connection error:", err));
 
-// Student model (included in this file)
+// Student model
 const studentSchema = new mongoose.Schema({
   name: { type: String, required: true },
   rollNumber: { type: String, required: true, unique: true },
@@ -25,7 +25,7 @@ const studentSchema = new mongoose.Schema({
 
 const Student = mongoose.model('Student', studentSchema);
 
-// POST route to receive and store student details
+// POST route to register a new student
 app.post('/api/students', async (req, res) => {
   try {
     const student = new Student(req.body);
@@ -36,10 +36,25 @@ app.post('/api/students', async (req, res) => {
   }
 });
 
+// GET route to retrieve student by rollNumber
+app.get('/api/students/:rollNumber', async (req, res) => {
+  try {
+    const rollNumber = req.params.rollNumber;
+    const student = await Student.findOne({ rollNumber });
+    if (!student) {
+      return res.status(404).json({ error: 'Student not found' });
+    }
+    res.json(student);
+  } catch (error) {
+    res.status(500).json({ error: 'Server error', details: error.message });
+  }
+});
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
 
 
 
