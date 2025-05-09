@@ -36,3 +36,6 @@ cd my-react-app
 npm install
 npm run dev
 
+cmd for create component 
+cd src
+touch StudentForm.js
